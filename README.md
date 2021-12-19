@@ -17,3 +17,7 @@ The goal of this project is to build an inverted index from a list of documents 
 **Notes**:
 1. The "documents" folder and "queries.txt" should be in the current working directory
 2. Positional Index Structure: Dict{Key -> word, Value -> new list [Total number of frequency , Dict{Key -> doc Number, Value -> position}]}
+
+# Visualization
+
+This probability distribution program carries out a **Monte Carlo experiment** to determine the probabilities of rolling various numbers with a given number of dice.
