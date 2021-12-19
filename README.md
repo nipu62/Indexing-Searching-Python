@@ -1,6 +1,5 @@
 # Inverted-Index
 The goal of this project is to build an inverted index from a list of documents and retrieve documents related to user queries.
-@Author: Ayesha Siddika Nipu
 
 **Steps**:
 1. Change the path where the documents are placed. No need to change if its is base directory
@@ -13,3 +12,8 @@ The goal of this project is to build an inverted index from a list of documents 
 **Notes**:
 1. The list of file numbers will be displayed along with the full query string.
 2. index.txt file will be stored inside the documents folder in JSON format
+
+# Biword and Positional Index
+**Notes**:
+1. The "documents" folder and "queries.txt" should be in the current working directory
+2. Positional Index Structure: Dict{Key -> word, Value -> new list [Total number of frequency , Dict{Key -> doc Number, Value -> position}]}
